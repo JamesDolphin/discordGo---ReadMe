@@ -1,5 +1,7 @@
 # discordGo---ReadMe
 
+Actual repo is private.
+
 How to use discordGo commands.
 
 !help - no arguments - lists all available commands  
