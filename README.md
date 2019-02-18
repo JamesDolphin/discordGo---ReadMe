@@ -8,7 +8,7 @@ How to use discordGo commands.
 !broadcastrole - 1 argument - set the role which is notified during match events. eg !broadcastrole @tvrole  
 !broadcastchannel - 1 argument - match status messages will appear this channel. eg !broadcastchannel #thechannel  
 !adminchannel - 1 argument - channel which admin messages will appear. eg !adminchannel #adminchannel  
-!startrcon - 3 arguments - start rcon functionality. eg !startrcon ip port rcon_password -> !startrcon 1.1.1.1 12345 password  
+!startrcon - 3 arguments - start rcon functionality. eg !startrcon ip port rcon_password -> !startrcon 1.1.1.1 12345  
 
 The following commands REQUIRE !startrcon to be used first AND correctly ---
 
