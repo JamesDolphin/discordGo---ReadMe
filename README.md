@@ -13,9 +13,12 @@ How to use discordGo commands.
 The following commands REQUIRE !startrcon to be used first AND correctly ---
 
 !setlive - 1 argument - sets the current status to live (used when bot may be started mid game) eg. !setlive yes/no  
-!setnfl - 6 arguments - sets team names (n), flags (f) and logos (l). eg. !setnfl ctname tname ctflag tflag ctlogo tlogo  
+!setnfl - 6 arguments - sets team names (n), flags (f) and logos (l). eg. !setnfl ctname tname ctflag tflag ctlogo tlogo *
 !hudscore - 3 arguments - sets hud series score. eg !hudscore SCOREMAX CTSCORE TSCORE -> !hudscore 2 1 1  
 !rconsend - sends string to server. eg !rconsend sv_cheats 1
+
+
+*Use _ instead of spaces in !setnfl
 
 
 ![alt text](https://cdn.discordapp.com/attachments/546946476836782090/546955027210829825/no_backround.png)
