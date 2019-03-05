@@ -31,7 +31,13 @@
 
 - !setlive - 2 arguments  - sets the current status to live (used when bot may be started mid game) eg. !setlive serverid yes/no   
     >If the game is not currently "live" then no notifications will be sent from it (match end postings will continue)    
-    >Games are automatically set live if the bot is watching at the start of the map (live = true on the real life start of game)      
+    >Games are automatically set live if the bot is watching at the start of the map (live = true on the real life start of game)  
+    
+ - !notificiations - 2 arguments  - sets the notifications to on or off eg. !notifications serverid yes/no  
+    >Notifications refer to broadcast role notifications (live, pause, end match)
+    
+ - !usercon serverid true
+    >Enables the command belows  
 
 - !setnfl - 7 arguments - sets team names (n), flags (f) and logos (l). eg. !setnfl serverid NiP Astralis SE DK nip_logo ast_logo  
     >Logo names aka nip_logo and ast_logo need to be matches to the observer PC's naming convention.    
@@ -39,9 +45,6 @@
 
 - !hudscore - 4 arguments - sets hud series score. eg !hudscore SCOREMAX CTSCORE TSCORE -> !hudscore serverid 2 1 1  
     >!hudscore serverid 2 1 1 will set the series to a bo3 scoring system with the CT on 1 and the T on 1  
-
-- !usercon serverid true
-    >Enables the command below  
 
 - !rconsend - sends string to server. eg !rconsend serverid sv_cheats 1  
     >sends all text following the serverid. !rconsend 13 mp_pause_match; say The match has been paused  
