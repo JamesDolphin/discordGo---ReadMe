@@ -36,8 +36,8 @@
  - !notificiations - 2 arguments  - sets the notifications to on or off eg. !notifications serverid yes/no  
     >Notifications refer to broadcast role notifications (live, pause, end match)
     
- - !usercon serverid true
-    >Enables the command belows  
+ - !usercon serverid yes  
+    >Enables the command below  
 
 - !setnfl - 7 arguments - sets team names (n), flags (f) and logos (l). eg. !setnfl serverid NiP Astralis SE DK nip_logo ast_logo  
     >Logo names aka nip_logo and ast_logo need to be matches to the observer PC's naming convention.    
