@@ -16,13 +16,17 @@
 - !gamechannel - 1 argument - end of match postings will appear in this channel eg !gamechannel #thechannel  
      
 - !adminchannel - 1 argument - channel which admin messages will appear. eg !adminchannel #adminchannel  
-    >The adminchannel is used for printing the server list and displaying player disconnects
+    >The adminchannel is used for printing the server list and displaying player disconnects  
+    
+- !chatchannel - 1 argument - channel which chat messages will appear. eg !chatchannel #chatchannel  
    
 - !servers - no arguments - prints a list of all servers and their internal ID's  
     >Will list IP and port, current team names playing (can be undefined) and if rcon sending is available.    
 
 - !delserver - 1 argument - deletes server (and removes the log address) by ID. eg !delsever 15. Can also use !delserver all  
     >Server ID's can be found using the !servers command  
+ 
+- !usechat - 2 arguments - displays chat of server (only 1 server at a time) in the !chatchannel eg !usechat serverid yes/no  
 
  ### The following commands REQUIRE !startrcon to be used first AND correctly ---  
 
@@ -33,7 +37,7 @@
     >If the game is not currently "live" then no notifications will be sent from it (match end postings will continue)    
     >Games are automatically set live if the bot is watching at the start of the map (live = true on the real life start of game)  
     
- - !notificiations - 2 arguments  - sets the notifications to on or off eg. !notifications serverid yes/no  
+ - !notif - 2 arguments  - sets the notifications to on or off eg. !notifications serverid yes/no  
     >Notifications refer to broadcast role notifications (live, pause, end match)
     
  - !usercon serverid yes  
