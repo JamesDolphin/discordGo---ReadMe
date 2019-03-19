@@ -30,6 +30,8 @@ DiscordGo is a live production and online league adminstrator discord bot used t
  
 - !usechat - 2 arguments - displays chat of server (only 1 server at a time) in the !chatchannel eg !usechat serverid yes/no  
 
+- !rconpass - 1 argument - sets the global rconpassword for all upcoming server additions eg !rconpassword goodpassword  
+
  ### The following commands REQUIRE !startrcon to be used first AND correctly ---  
 
 - !startrcon - x arguments - start rcon functionality. eg !startrcon ip1:port1 ip2:port2 ip3:port3 -> !startrcon 1.1.1.1:12345  
