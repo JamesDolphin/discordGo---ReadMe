@@ -1,6 +1,6 @@
 ## DiscordGo
 
-DiscordGo is a live production and online league adminstrator discord bot used to streamline the running of CS:GO events specifically using the ESEA platform. The bot can be configured to provide real time status updates directly from a csgo server or simply notify users when a match is complete. The actual repoistory is private.
+DiscordGo is a live production and online league adminstrator discord bot used to streamline the running of CS:GO events specifically using the ESEA platform. The bot can be configured to provide real time status updates directly from a csgo server or simply notify users when a match is complete. The actual repository is private.
 
 ![alt text](https://cdn.discordapp.com/attachments/546946476836782090/546955027210829825/no_backround.png)
 
