@@ -21,6 +21,8 @@ DiscordGo is a live production and online league adminstrator discord bot used t
     >The adminchannel is used for printing the server list and displaying player disconnects  
     
 - !chatchannel - 1 argument - channel which chat messages will appear. eg !chatchannel #chatchannel  
+
+- !livegames - 1 argument - channel which live scores will be displayed. eg !livegames #livegamechannel  
    
 - !servers - no arguments - prints a list of all servers and their internal ID's  
     >Will list IP and port, current team names playing (can be undefined) and if rcon sending is available.    
@@ -31,6 +33,8 @@ DiscordGo is a live production and online league adminstrator discord bot used t
 - !usechat - 2 arguments - displays chat of server (only 1 server at a time) in the !chatchannel eg !usechat serverid yes/no  
 
 - !rconpass - 1 argument - sets the global rconpassword for all upcoming server additions eg !rconpassword password  
+
+- !refresh - no arguments - checks all currently followed servers to see if they are still connected  
 
  ### The following commands REQUIRE !startrcon to be used first AND correctly ---  
 
