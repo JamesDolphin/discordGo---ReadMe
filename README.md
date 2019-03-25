@@ -37,7 +37,7 @@ DiscordGo is a live production and online league adminstrator discord bot used t
 
 - !refresh - no arguments - checks all currently followed servers to see if they are still connected (not used often)  
 
-- !swapscores - 3 arguments - Ask James about this if its urgent otherwise do not touch it.
+- !swapscores - 3 arguments - Ask James about this if its urgent otherwise do not touch it. (used if you restore a game and start the bot AFTER that happened or you start the bot AFTER half time)
 
  ### The following commands REQUIRE !startrcon to be used first AND correctly ---  
 
