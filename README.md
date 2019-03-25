@@ -6,6 +6,7 @@ DiscordGo is a live production and online league adminstrator discord bot used t
 
 - **GENERAL USERS SHOULD NOT HAVE THE ABILITY TO TYPE IN CHANNELS THE BOT CAN READ** 
 - **SET UP YOUR SERVER PERMISSIONS CAREFULLY**
+- **ITS STRONGLY RECOMMENDED IF YOU ARE SENDING RCON COMMANDS (NAMES/LOGOS/SCORES) THAT YOU ADD THE SERVERS BEFORE ITS LIVE OTHERWISE YOU COULD SEE INCORRECT RESULTS**
 
 - !help - no arguments - sends you here!
 
@@ -34,7 +35,9 @@ DiscordGo is a live production and online league adminstrator discord bot used t
 
 - !rconpass - 1 argument - sets the global rconpassword for all upcoming server additions eg !rconpassword password  
 
-- !refresh - no arguments - checks all currently followed servers to see if they are still connected  
+- !refresh - no arguments - checks all currently followed servers to see if they are still connected (not used often)  
+
+- !swapscores - 3 arguments - Ask James about this if its urgent otherwise do not touch it.
 
  ### The following commands REQUIRE !startrcon to be used first AND correctly ---  
 
