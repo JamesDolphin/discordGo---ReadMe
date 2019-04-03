@@ -33,11 +33,7 @@ DiscordGo is a live production and online league adminstrator discord bot used t
  
 - !usechat - 2 arguments - displays chat of server (only 1 server at a time) in the !chatchannel eg !usechat serverid yes/no  
 
-- !rconpass - 1 argument - sets the global rconpassword for all upcoming server additions eg !rconpassword password  
-
-- !refresh - no arguments - checks all currently followed servers to see if they are still connected (not used often)  
-
-- !swapscores - 3 arguments - Ask James about this if its urgent otherwise do not touch it. (used if you restore a game and start the bot AFTER that happened or you start the bot AFTER half time)
+- !rconpass - 1 argument - rcon password upcoming server additions with 2 states found by using the command with no arguments.  
 
  ### The following commands REQUIRE !startrcon to be used first AND correctly ---  
 
@@ -54,9 +50,8 @@ DiscordGo is a live production and online league adminstrator discord bot used t
  - !usercon serverid yes  
     >Enables the command below  
 
-- !setnfl - 7 arguments - sets team names (n), flags (f) and logos (l). eg. !setnfl serverid NiP Astralis SE DK nip_logo ast_logo  
-    >Logo names aka nip_logo and ast_logo need to be matches to the observer PC's naming convention.    
-    >***Use _ instead of spaces in !setnfl***  !setnfl serverid Team_NiP Team_Astralis SE DK nip_logo ast_logo  
+- !setfl - 5 arguments - sets flags (f) and logos (l). eg. !setfl serverid SE DK nip_logo ast_logo  
+    >Logo names aka nip_logo and ast_logo need to be matched to the observer PC's naming convention.   
 
 - !hudscore - 4 arguments - sets hud series score. eg !hudscore SCOREMAX CTSCORE TSCORE -> !hudscore serverid 2 1 1  
     >!hudscore serverid 2 1 1 will set the series to a bo3 scoring system with the CT on 1 and the T on 1  
