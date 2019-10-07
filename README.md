@@ -8,7 +8,7 @@ DiscordGo is a live production and online league adminstrator discord bot used t
 - **SET UP YOUR SERVER PERMISSIONS CAREFULLY**
 - **ITS STRONGLY RECOMMENDED IF YOU ARE SENDING RCON COMMANDS (NAMES/LOGOS/SCORES) THAT YOU ADD THE SERVERS BEFORE ITS LIVE OTHERWISE YOU COULD SEE INCORRECT RESULTS**
 
-**IF JAMES SET UP THE BOT YOU DO NOT NEED TO WORRY ABOUT ANY CHANNEL COMMANDS (THEY SHOULD ALREADY BE SET)**
+- **IF JAMES SET UP THE BOT YOU DO NOT NEED TO WORRY ABOUT ANY CHANNEL COMMANDS (THEY SHOULD ALREADY BE SET)**
 
 
 
@@ -65,4 +65,4 @@ DiscordGo is a live production and online league adminstrator discord bot used t
 
 
 
-**#** - Option is by default set to on or yes
+- **#** - Option is by default set to on or yes
