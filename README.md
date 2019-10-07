@@ -8,6 +8,10 @@ DiscordGo is a live production and online league adminstrator discord bot used t
 - **SET UP YOUR SERVER PERMISSIONS CAREFULLY**
 - **ITS STRONGLY RECOMMENDED IF YOU ARE SENDING RCON COMMANDS (NAMES/LOGOS/SCORES) THAT YOU ADD THE SERVERS BEFORE ITS LIVE OTHERWISE YOU COULD SEE INCORRECT RESULTS**
 
+**IF JAMES SET UP THE BOT YOU DO NOT NEED TO WORRY ABOUT ANY CHANNEL COMMANDS (THEY SHOULD ALREADY BE SET)**
+
+
+
 - !help - no arguments - sends you here!
 
 - !broadcastrole - 1 argument - set the role which is notified during match events. eg !broadcastrole @tvrole  
@@ -31,9 +35,9 @@ DiscordGo is a live production and online league adminstrator discord bot used t
 - !delserver - 1 argument - deletes server (and removes the log address) by ID. eg !delsever 15. Can also use !delserver all  
     >Server ID's can be found using the !servers command  
  
-- !usechat - 2 arguments - displays chat of server (only 1 server at a time) in the !chatchannel eg !usechat serverid yes/no  
+- !usechat - 2 arguments - displays chat of server (only 1 server at a time) in the !chatchannel eg !usechat serverid yes/no **#**
 
-- !rconpass - 1 argument - rcon password for upcoming server additions with 2 states found by using the command with no arguments.  
+- !rconpass - 1 argument - rcon password for upcoming server additions with 2 states found by using the command with no arguments. **#** 
 
  ### The following commands REQUIRE !startrcon to be used first AND correctly ---  
 
@@ -45,10 +49,10 @@ DiscordGo is a live production and online league adminstrator discord bot used t
     >Games are automatically set live if the bot is watching at the start of the map (live = true on the real life start of game)  
     
  - !notif - 2 arguments  - sets the notifications to on or off eg. !notifications serverid yes/no  
-    >Notifications refer to broadcast role notifications (live, pause, end match)
+    >Notifications refer to broadcast role notifications (live, pause, end match) **#**
     
  - !usercon serverid yes  
-    >Enables the command below  
+    >Enables the command below **#**
 
 - !setfl - 5 arguments - sets flags (f) and logos (l). eg. !setfl serverid SE DK nip_logo ast_logo  
     >Logo names aka nip_logo and ast_logo need to be matched to the observer PC's naming convention.   
@@ -60,3 +64,5 @@ DiscordGo is a live production and online league adminstrator discord bot used t
     >sends all text following the serverid. !rconsend 13 mp_pause_match; say The match has been paused  
 
 
+
+**#** - Option is by default set to on or yes
